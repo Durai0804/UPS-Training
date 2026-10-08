@@ -6,6 +6,11 @@ class moviesite{
         Scanner sc = new Scanner(System.in);
         System.out.println("Welcome to Durai's Theatre where all the movies are available");
          System.out.println(" ");
+         System.out.print("Enter the number of tickets you want to book : ");
+         Boolean flag = true;
+         while(flag){
+             
+         
 
          System.out.println("Kindly select the Location where you want to see the movie");
           System.out.println(" ");
@@ -32,6 +37,14 @@ class moviesite{
                             System.out.print("Enter your number : ");
                             long number = sc.nextLong();
                             System.out.println("Your movie is confirmed and your name is " + name + " and your number is " + number);
+                            System.out.print("Do you wish to continue : 1 for YES and 2 for NO : ");
+                            int choice = sc.nextInt();
+                            if(choice == 1){
+                                continue;
+                            }else{
+                                flag = false;
+                                return;
+                            }
                         }
                         else{
                             System.out.println("Your movie is not confirmed");
@@ -48,6 +61,14 @@ class moviesite{
                             System.out.print("Enter your number : ");
                             long number = sc.nextLong();
                             System.out.println("Your movie is confirmed and your name is " + name + " and your number is " + number);
+                            System.out.print("Do you wish to continue : 1 for YES and 2 for NO : ");
+                            int choice = sc.nextInt();
+                            if(choice == 1){
+                                continue;
+                            }else{
+                                flag = false;
+                                return;
+                            }
                         }
                         else{
                             System.out.println("Your movie is not confirmed");
@@ -64,6 +85,14 @@ class moviesite{
                             System.out.print("Enter your number : ");
                             long number = sc.nextLong();
                             System.out.println("Your movie is confirmed and your name is " + name + " and your number is " + number);
+                            System.out.print("Do you wish to continue : 1 for YES and 2 for NO : ");
+                            int choice = sc.nextInt();
+                            if(choice == 1){
+                                continue;
+                            }else{
+                                flag = false;
+                                return;
+                            }
                         }
                         else{
                             System.out.println("Your movie is not confirmed");
@@ -83,6 +112,14 @@ class moviesite{
                             System.out.print("Enter your number : ");
                             long number = sc.nextLong();
                             System.out.println("Your movie is confirmed and your name is " + name + " and your number is " + number);
+                            System.out.print("Do you wish to continue : 1 for YES and 2 for NO : ");
+                            int choice = sc.nextInt();
+                            if(choice == 1){
+                                continue;
+                            }else{
+                                flag = false;
+                                return;
+                            }
                         }
                         else{
                             System.out.println("Your movie is not confirmed");
@@ -100,6 +137,14 @@ class moviesite{
                             System.out.print("Enter your number : ");
                             long number = sc.nextLong();
                             System.out.println("Your movie is confirmed and your name is " + name + " and your number is " + number);
+                            System.out.print("Do you wish to continue : 1 for YES and 2 for NO : ");
+                            int choice = sc.nextInt();
+                            if(choice == 1){
+                                continue;
+                            }else{
+                                flag = false;
+                                return;
+                            }
                         }
                         else{
                             System.out.println("Your movie is not confirmed");
@@ -116,6 +161,14 @@ class moviesite{
                             System.out.print("Enter your number : ");
                             long number = sc.nextLong();
                             System.out.println("Your movie is confirmed and your name is " + name + " and your number is " + number);
+                            System.out.print("Do you wish to continue : 1 for YES and 2 for NO : ");
+                            int choice = sc.nextInt();
+                            if(choice == 1){
+                                continue;
+                            }else{
+                                flag = false;
+                                return;
+                            }
                         }
                         else{
                             System.out.println("Your movie is not confirmed");
@@ -136,6 +189,14 @@ class moviesite{
                             System.out.print("Enter your number : ");
                             long number = sc.nextLong();
                             System.out.println("Your movie is confirmed and your name is " + name + " and your number is " + number);
+                            System.out.print("Do you wish to continue : 1 for YES and 2 for NO : ");
+                            int choice = sc.nextInt();
+                            if(choice == 1){
+                                continue;
+                            }else{
+                                flag = false;
+                                return;
+                            }
                         }
                         else{
                             System.out.println("Your movie is not confirmed");
@@ -153,8 +214,15 @@ class moviesite{
                             System.out.print("Enter your number : ");
                             long number = sc.nextLong();
                             System.out.println("Your movie is confirmed and your name is " + name + " and your number is " + number);
-                        }
-                        else{
+                            System.out.print("Do you wish to continue : 1 for YES and 2 for NO : ");
+                            int choice = sc.nextInt();
+                            if(choice == 1){
+                                continue;
+                            }else{
+                                flag = false;
+                                return;
+                            }
+                        }else{
                             System.out.println("Your movie is not confirmed");
                         }
                     }
@@ -169,14 +237,24 @@ class moviesite{
                             System.out.print("Enter your number : ");
                             long number = sc.nextLong();
                             System.out.println("Your movie is confirmed and your name is " + name + " and your number is " + number);
+                            System.out.print("Do you wish to continue : 1 for YES and 2 for NO : ");
+                            int choice = sc.nextInt();
+                            if(choice == 1){
+                                continue;
+                            }else{
+                                flag = false;
+                                return;
+                            }
                         }
                         else{
                             System.out.println("Your movie is not confirmed");
                         }
+                       
                     }
         }
 
         
     }
+         }
 }
 }
