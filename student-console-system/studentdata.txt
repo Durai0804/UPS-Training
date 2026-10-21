@@ -1,15 +1,2 @@
-Name : Durai
-Roll No : 28
-Age : 21
-Name : Karthi
-Roll No : 29
-Age : 21
-Name : Sharan
-Roll No : 30
-Age : 21
-Name : durai
-Roll No : 21
-Age : 21
-Name : karthi
-Roll No : 28
-Age : 29
+Name : Durai Roll No : 28 Age : 21 . 
+Name : durai Roll No : 99 Age : 99 . 

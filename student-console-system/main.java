@@ -11,13 +11,15 @@ public class main{
         System.out.println("Enter 4 for delete Student Record");
         System.out.print("Enter your choice : ");
         int choice = sc.nextInt();
+        sc.nextLine();
 
         switch(choice){
             case 1 : {
                 System.out.print("Enter name : ");
-                String name = sc.next();
+                String name = sc.nextLine();
                 System.out.print("Enter roll no : ");
                 int rollno = sc.nextInt();
+                sc.nextLine();
                 System.out.print("Enter age : ");
                 int age = sc.nextInt();
                 student s = new student(name,rollno,age);
@@ -30,12 +32,12 @@ public class main{
                 int choice2 = sc.nextInt();
                 if(choice2 == 1){
                     System.out.print("Enter roll no : ");
-                    int rollno = sc.nextInt();
-                    services.getStudentRecord(rollno);
+                    String rollno = sc.next();
+                    services.getStudentRecordviaRollno(rollno);
                 }else if(choice2 == 2){
                     System.out.print("Enter name : ");
                     String name = sc.next();
-                    //services.getStudentRecord(name);
+                    services.getStudentRecordviaName(name);
                 }else{
                     System.out.println("Invalid input");
                 }
